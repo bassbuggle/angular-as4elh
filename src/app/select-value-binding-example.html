@@ -1,0 +1,16 @@
+<mat-form-field appearance="fill">
+  <mat-label>Select the icon scheme:</mat-label>
+  <mat-select [(value)]="selected">
+    <mat-option>None</mat-option>
+    <mat-option value="default">default</mat-option>
+    <mat-option value="night">night</mat-option>
+    <mat-option value="maps">maps</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<p>You selected: {{selected}}</p>
+
+
+<!-- Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
