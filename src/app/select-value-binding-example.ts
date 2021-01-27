@@ -6,7 +6,7 @@ import {Component} from '@angular/core';
   templateUrl: 'select-value-binding-example.html',
 })
 export class SelectValueBindingExample {
-  selected = 'option2';
+  selected = 'none';
 }
 
 
